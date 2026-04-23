@@ -3,9 +3,9 @@ Contributors: skyverge, beka.rice
 Tags: woocommerce, sku, product sku, sku generator
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=paypal@skyverge.com&item_name=Donation+for+WooCommerce+SKU+Generator
 Requires at least: 5.6
-Tested up to: 6.8
+Tested up to: 6.9.4
 Requires PHP: 7.4
-Stable Tag: 2.5.0
+Stable Tag: 2.5.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -154,6 +154,10 @@ add_filter( 'wc_sku_generator_force_attribute_sorting', '__return_true' );
 `
 
 == Changelog ==
+
+= 2026.04.23 - version 2.5.1 =
+ * Fix - Address `wc_enqueue_js()` deprecation warnings
+ * Fix - Address "translation loaded too early" warnings
 
 = 2023.07.28 - version 2.5.0 =
  * Misc - Add compatibility for WooCommerce High Performance Order Storage (HPOS)
